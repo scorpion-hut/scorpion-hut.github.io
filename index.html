@@ -457,7 +457,10 @@
             window.location.hash = hash;
           });
 
-          document.querySelector('.navbar-toggler').click();
+          $toggler = document.querySelector('.navbar-toggler');
+          if($toggler.getAttribute('aria-expanded') === "true") {
+            $toggler.click();
+          }
         } // End if
       });
     });
