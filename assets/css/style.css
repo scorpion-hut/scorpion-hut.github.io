@@ -1,11 +1,28 @@
-/* LOGO */
+/*
+ * List of contents:
+ *   1. LOGO
+ *   2. BRANDS
+ *   3. CONTACT FORM
+ *   4. FOOTER
+ *   5. GALLERY 
+ *   6. MAP
+ *   7. TEAM
+ *   8. TESTIMONIALS
+ *   9. MISCELLANEOUS - animation, fonts and etc
+ */
+
+/* 
+ * 1. LOGO 
+ */
 .logo{
 	font-family:'Origami';
 	font-weight:normal;
 	font-style: normal;
 }
-/* BRANDS */
 
+/* 
+ * 2. BRANDS 
+ */
 .brands {
   color:#313437;
   background-color:#fff;
@@ -29,10 +46,9 @@
   vertical-align:middle;
 }
 
-/* BRANDS */
-
-/* CONTACT FORM */
-
+/* 
+ * 3. CONTACT FORM
+ */
 .contact-clean {
   background:#f1f7fc;
   padding:80px 0;
@@ -83,6 +99,11 @@
   height:42px;
 }
 
+/* Hide error if everything OK */
+.contact-clean form .form-control:valid + .text-danger {
+  display: none;
+}
+
 .contact-clean form .form-control:focus {
   border:1px solid #b2b2b2;
 }
@@ -123,10 +144,9 @@
   color:#fff;
 }
 
-/* CONTACT FORM */
-
-/* FOOTER */
-
+/* 
+ * 4. FOOTER 
+ */
 .footer-clean {
   padding:50px 0;
   background-color:#fff;
@@ -213,10 +233,9 @@
   opacity:0.6;
 }
 
-/* FOOTER */
-
-/* GALLERY */
-
+/* 
+ * 5. GALLERY 
+ */
 .photo-gallery {
   color:#313437;
   background-color:#fff;
@@ -259,10 +278,9 @@
   padding-bottom:30px;
 }
 
-/* GALLERY */
-
-/* MAP */
-
+/* 
+ * 6. MAP 
+ */
 .map-clean {
   color:#313437;
   background-color:#fff;
@@ -297,10 +315,9 @@
   background-color:#eee;
 }
 
-/* MAP */
-
-/* TEAM */
-
+/* 
+ * 7. TEAM 
+ */
 .team-boxed {
   color:#313437;
   background-color:#eef4f7;
@@ -391,7 +408,6 @@
   opacity:1;
 }
 
-
 .team-clean {
   color:#313437;
   background-color:#fff;
@@ -476,10 +492,9 @@
   opacity:1;
 }
 
-/* TEAM */
-
-/* TESTIMONIALS */
-
+/* 
+ * 8. TESTIMONIALS 
+ */
 .testimonials-clean {
   color:#313437;
   background-color:#eef4f7;
@@ -574,14 +589,9 @@
   margin-top:-5px;
 }
 
-/* TESTIMONIALS */
-
-
-
-
-
-
-
+/*
+ * 9. MISCELLANEOUS
+ */
 @font-face {
     font-family: 'Origami';
     src: url('../fonts/Origami.woff') format('woff2'), url('../fonts/Origami.woff') format('woff');
@@ -596,7 +606,8 @@
 
   width :34px;
   height: 55px;
-}
+} 
+
 .mousey {
   width: 3px;
   padding: 10px 15px;
@@ -606,6 +617,7 @@
   opacity: 0.75;
   box-sizing: content-box;
 }
+
 .scroller {
   width: 3px;
   height: 10px;
@@ -616,12 +628,12 @@
   animation-timing-function: cubic-bezier(.15,.41,.69,.94);
   animation-iteration-count: infinite;
 }
+
 @keyframes scroll {
   0% { opacity: 0; }
   10% { transform: translateY(0); opacity: 1; }
   100% { transform: translateY(15px); opacity: 0;}
 }
-
 
 .blinking-cursor {
   font-weight: 100;
@@ -679,6 +691,12 @@
   }
 }
 
-.carousel-control-next, .carousel-control-prev {
+
+a[href="#"] {
+  display: none!important;;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
   top: 160px !important;
 }
