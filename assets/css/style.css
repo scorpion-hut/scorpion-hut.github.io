@@ -1,4 +1,9 @@
-
+/* LOGO */
+.logo{
+	font-family:'Origami';
+	font-weight:normal;
+	font-style: normal;
+}
 /* BRANDS */
 
 .brands {
@@ -578,8 +583,8 @@
 
 
 @font-face {
-  font-family: "Origami";
-  src: url("assets/fonts/Origami.ttf");
+    font-family: 'Origami';
+    src: url('../fonts/Origami.woff') format('woff2'), url('../fonts/Origami.woff') format('woff');
 }
 
 .scroll-downs {
@@ -672,4 +677,8 @@
   50% {
     color: white;
   }
+}
+
+.carousel-control-next, .carousel-control-prev {
+  top: 160px !important;
 }
