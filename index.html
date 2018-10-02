@@ -492,6 +492,11 @@
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
           });
+
+          $toggler = document.querySelector('.navbar-toggler');
+          if($toggler.getAttribute('aria-expanded') === "true") {
+            $toggler.click();
+          }
         } // End if
       });
     });
