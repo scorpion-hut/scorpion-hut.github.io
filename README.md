@@ -17,7 +17,7 @@ This site is hosted on GitHub pages. You can read more about it from the blog po
 ## Who This Repo is For
 This repo is mostly for the team. If you like the work, please Star 🌟 the repo. If you find any suggestions/typos, drop a issue.
 
-
-Team Scorpion © 2018
+-----
+**Team Scorpion © 2018**
 
 Website by [Venu Vardhan Reddy Tekula](https://vchrombie.github.io/)
