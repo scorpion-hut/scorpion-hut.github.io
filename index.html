@@ -55,6 +55,7 @@
 
 <body>
 
+<<<<<<< HEAD
   <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
     <div class="container"><a class="navbar-brand logo" href="#top" font-family="Origami">SCORPION</a><button class="navbar-toggler"
         data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -83,6 +84,21 @@
           <div class="mousey">
             <div class="scroller"></div>
           </div>
+=======
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#top">SCORPION</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#about">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#hut-lab">HuT Lab</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#display">Gallery</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#mentors">Team</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+>>>>>>> a860e621d1e265a61814df8467eef47fe8bcf177
         </div>
       </div>
     </section>
@@ -492,6 +508,8 @@
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
           });
+
+          document.querySelector('.navbar-toggler').click();
         } // End if
       });
     });
