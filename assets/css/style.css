@@ -14,6 +14,7 @@
 /* 
  * 1. LOGO 
  */
+
 .logo{
 	font-family:'Origami';
 	font-weight:normal;
@@ -23,6 +24,7 @@
 /* 
  * 2. BRANDS 
  */
+
 .brands {
   color:#313437;
   background-color:#fff;
@@ -49,6 +51,7 @@
 /* 
  * 3. CONTACT FORM
  */
+
 .contact-clean {
   background:#f1f7fc;
   padding:80px 0;
@@ -147,6 +150,7 @@
 /* 
  * 4. FOOTER 
  */
+
 .footer-clean {
   padding:50px 0;
   background-color:#fff;
@@ -236,6 +240,7 @@
 /* 
  * 5. GALLERY 
  */
+
 .photo-gallery {
   color:#313437;
   background-color:#fff;
@@ -281,6 +286,7 @@
 /* 
  * 6. MAP 
  */
+
 .map-clean {
   color:#313437;
   background-color:#fff;
@@ -318,6 +324,7 @@
 /* 
  * 7. TEAM 
  */
+
 .team-boxed {
   color:#313437;
   background-color:#eef4f7;
@@ -495,6 +502,7 @@
 /* 
  * 8. TESTIMONIALS 
  */
+
 .testimonials-clean {
   color:#313437;
   background-color:#eef4f7;
@@ -592,6 +600,7 @@
 /*
  * 9. MISCELLANEOUS
  */
+ 
 @font-face {
     font-family: 'Origami';
     src: url('../fonts/Origami.woff') format('woff2'), url('../fonts/Origami.woff') format('woff');
